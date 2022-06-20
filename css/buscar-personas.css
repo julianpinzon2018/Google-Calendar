@@ -1,0 +1,26 @@
+@import './mis-calendarios.css';
+
+.buscarPersonas {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-inline-size: 12.25rem;
+}
+.buscarPersonas-buscador {
+    overflow: hidden;
+    white-space: nowrap;
+    align-items: center;
+    padding-inline: 1rem;
+    padding-block: 0.75rem;
+    color: var(--gray20);
+    background-color: var(--gray10);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.buscarPersonas-buscador input {
+    border: none;
+    background-color: var(--gray10);
+}

@@ -1,0 +1,78 @@
+.button {
+    border: 1px solid transparent;
+    padding-inline: 1rem;
+    padding-block: .5rem;
+    display: inline-block;
+    font: var(--button-button);
+    text-decoration: none;
+    cursor: pointer;
+    background: transparent;
+    color: currentColor;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    outline: none;
+
+}
+.button:active {
+    transform: scale(.9);
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    -ms-transform: scale(.9);
+    -o-transform: scale(.9);
+}
+.button.is-primary {
+    background: var(--blue10);
+    color: var(--white);
+}
+.button.is-secondary {
+    border: 1px solid var(--gray20);
+    background: var(--white);
+}
+.button.is-primary:hover,
+.button.is-primary:focus {
+    background: var(--blue30);
+
+}
+.button:hover,
+.button:focus,
+.button.is-secondary:hover,
+.button.is-secondary:focus,
+.button.is-rounded:hover,
+.button.is-rounded:focus,
+.button.is-compact:hover,
+.button.is-compact:focus   {
+    background: var(--gray10);
+                    
+}
+.button.is-rounded {
+    color: var(--blue10);
+    border-radius: 1.25rem;
+    background: var(--white);
+    -webkit-border-radius: 1.25rem;
+    -moz-border-radius: 1.25rem;
+    -ms-border-radius: 1.25rem;
+    -o-border-radius: 1.25rem;
+}
+.button i {
+    font-size: 1.5rem;
+    color: var(--gray50);
+}
+.button i, .button span {
+    vertical-align: middle;
+}
+.button.is-compact {
+    background-color: #fefefe;
+    padding: .5rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 1.0719px 30.9815px 92px rgba(0, 0, 0, 0.0274815), 0.412881px 11.9336px 29.3037px rgba(0, 0, 0, 0.0425185), 0.0873403px 2.52442px 7.4963px rgba(0, 0, 0, 0.07);
+}
+.button.is-shadowed {
+    box-shadow: 1.0719px 30.9815px 92px rgba(0, 0, 0, 0.0274815), 0.412881px 11.9336px 29.3037px rgba(0, 0, 0, 0.0425185), 0.0873403px 2.52442px 7.4963px rgba(0, 0, 0, 0.07);
+}

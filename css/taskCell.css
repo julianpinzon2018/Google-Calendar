@@ -1,0 +1,18 @@
+.taskCell {
+    border-inline-start: 1px solid currentColor;
+    border-block-end: 1px solid currentColor;
+    padding: .25rem;
+}
+.taskCell.boorder {
+    border-block-start: 1px solid currentColor;
+    
+}
+.taskCell.is-active::before {
+    content: '(sin titulo)';
+    font-size: small;
+    background: #c6dafc;
+    padding: .25rem;
+    display: block;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+
+}

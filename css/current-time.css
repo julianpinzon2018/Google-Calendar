@@ -1,0 +1,33 @@
+.currentTime {
+    block-size: 2px;
+    background: var(--red10);
+    inline-size: 5rem;
+    position: absolute;
+    inset-inline-start: 200px;
+    inset-block-start: 200px;
+    z-index: 2;
+
+
+}
+.currentTime::before {
+    display: block;
+    content: '';
+    inline-size: 1rem;
+    block-size: 1rem;
+    background-color: var(--red10);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.currentTime.dia {
+    max-inline-size: 59.5rem;
+    inline-size: 100%;
+    inset-inline-start: 4.1rem;
+}

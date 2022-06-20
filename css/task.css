@@ -1,0 +1,20 @@
+.task {
+    background: var(--blue10);
+    color: var(--white);
+    border-radius: .25rem;
+    padding-inline: 1rem;
+    padding-block: .625rem;
+    -webkit-border-radius: .25rem;
+    -moz-border-radius: .25rem;
+    -ms-border-radius: .25rem;
+    -o-border-radius: .25rem;
+    overflow: hidden;
+    font: var(--body2-medium);
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+.task p {
+    margin: 0;
+    white-space: inherit;
+}

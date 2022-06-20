@@ -1,0 +1,44 @@
+@import './task.css';
+@import './taskCell.css';
+@import './calendar-day.css';
+@import './timezone-cell.css';
+@import './hour-cell.css';
+@import './current-time.css';
+@import './button.css';
+@import './select.css';
+@import './calendar-status.css';
+@import './header.css';
+@import './mini-calendar.css';
+@import './buscar-personas.css';
+@import './sidebar.css';
+@import './modal.css';
+@import './input.css';
+@import './create-task.css';
+
+
+
+.calendar {
+    color: var(--gray20);
+    padding-inline: 1.5rem;
+    --minBlockSize: 4rem;
+    --maxBlockSize: auto;
+    --minInlineSize: 6rem;
+    --maxInlineSize: 1fr;
+    position: relative;
+
+
+}
+
+.calendar-week {
+    display: grid;
+    grid-template-columns: auto repeat(7, minmax(var(--minInlineSize), var(--maxInlineSize)));
+    grid-template-rows: 7rem repeat(24, minmax(var(--minBlockSize), var(--maxBlockSize)));
+    min-block-size: 700px;
+    max-block-size: 100%;
+    max-inline-size: 100%;
+}
+.calendar-week.dia {
+    grid-template-columns: auto 1fr;
+}
+
+

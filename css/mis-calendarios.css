@@ -1,0 +1,23 @@
+.misCalendarios {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+}
+.misCalendarios-title {
+    font: var(--body1-medium);
+    padding-inline: .25rem;
+    padding-block: .125rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.misCalendarios-options {
+    color: var(--gray30);
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding-inline: 0.25rem;
+}
+.misCalendarios-options i {
+    color: var(--gray50);
+}
