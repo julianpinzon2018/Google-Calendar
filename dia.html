@@ -9,6 +9,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<script>
+    function nav(value) {
+    if (value != "") { location.href = value; }
+    }
+    </script>
 </head>
 <body>
 
@@ -43,16 +48,14 @@
             </div>
 
             <div class="header-secondary">
-                <select class="select" name="" id="">
-                    <a href="./dia.html">
-                        <option value="" selected>
+                <form action="">
+                <select class="select" name="area" onChange="location = form.area.options[form.area.selectedIndex].value;" id="">
+                        <option value="./dia.html" selected>
                             Día</option>
-                    </a>
-                    <a href="./index.html">
-                        <option value="">
+                        <option value="./index.html">
                             Semana</option>
-                    </a>
                 </select>
+            </form>
                 <a href="#">
                     <img src="./images/Ellipse 1.png" alt="">
                 </a>

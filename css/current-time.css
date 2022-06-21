@@ -27,7 +27,7 @@
     -o-transform: translateY(-50%);
 }
 .currentTime.dia {
-    max-inline-size: 59.5rem;
-    inline-size: 100%;
+    inline-size: 97rem;
+    max-inline-size: 90%;
     inset-inline-start: 4.1rem;
 }
